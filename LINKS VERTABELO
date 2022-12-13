@@ -1,0 +1,22 @@
+https://my.vertabelo.com/doc/MdweMGQh89SEjOQDUhLf5t4XVGE4z3qh
+
+https://my.vertabelo.com/doc/NPXRslcZGbxiGBDIC1HotUd6HLyWQIsd
+
+
+SQL
+
+-- tables
+-- Table: CONTACTENOS
+CREATE TABLE CONTACTENOS (
+    IDCON int NOT NULL COMMENT 'Contiene el identificador de contactenos',
+    NOMCON varchar(50) NOT NULL COMMENT 'Contiene el nombre del cliente',
+    GMACON varchar(50) NOT NULL COMMENT 'Contiene el correo electronico del cliente',
+    CELCON char(9) NOT NULL COMMENT 'Contiene el numero de celular del cliente',
+    MENCON varchar(50) NOT NULL COMMENT 'Contiene el mensaje ingresado pór el cliente',
+    CONSTRAINT CONTACTENOS_pk PRIMARY KEY (IDCON)
+);
+
+-- End of file.
+
+DICCIONARIO DE DATOS
+https://drive.google.com/file/d/1zafl8ZyzA9l6AES7ttNov91JJpTDTxF6/view?usp=sharing
